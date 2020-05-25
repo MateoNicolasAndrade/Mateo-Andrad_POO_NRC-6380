@@ -1,10 +1,18 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#define lim  100
 
 int main(void) {
-
-    printf("Hola Mundo");
+    char ingreso[lim];
+    printf("\nHola Mundo\n");
+    printf("Ingresar una frase: \n");
+    gets(ingreso);
+    printf("%s",ingreso);
+    printf("\n\n");
+    printf("Version 1.1");
+    
     
     return (EXIT_SUCCESS);
 }
